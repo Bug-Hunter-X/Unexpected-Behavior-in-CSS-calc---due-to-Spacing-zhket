@@ -1,0 +1,16 @@
+/* Correct usage of calc() */
+#element {
+  width: calc(100% - 20px);
+}
+/* Incorrect usage of calc() */
+#element-incorrect {
+  width: calc( 100% - 20px );
+}
+/*Another example*/
+#element2{
+width:calc(100vh - 50px);
+}
+/*Incorrect example*/
+#element2-incorrect{
+width: calc(100vh - 50px );
+}
